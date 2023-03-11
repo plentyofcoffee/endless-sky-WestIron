@@ -34,4 +34,4 @@ ship "Courier"
 	gun 13.5 -4.5
 	explode "tiny explosion" 10
 	explode "small explosion" 10
-	description "The Courier is a mash up of a Star Barge and a Shuttle, but is considered a freighter because it is primarily cargo space, but can carry a few passengers as well."
+	description "The Courier is a mashup of a Star Barge and a Shuttle. While it's classified as a freighter because it is primarily cargo space, it can carry a few passengers as well."

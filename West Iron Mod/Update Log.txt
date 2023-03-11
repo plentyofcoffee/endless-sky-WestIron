@@ -29,19 +29,19 @@ Replaced "Assaultcraft" with "Spider"
 
 Added planets:
 	(They're the names of the Noble gases, read the periodic table!)
-	
+
 Added Ships:
 	Oracle
 	Sword Carrier
 	Sword Fighter
 	Sword Drone
 	Courier
-	
+
 Added Skins:
 	Freefire
 	Liberty
 	Meta Fighter
-	
+
 Added weapons:
 	Electric Anti-Missile
 	Proton Turret (Not in stores!)
@@ -73,44 +73,44 @@ Added ships:
 Readded skins:
 	Heavy Carrier
 	Patrolship
-	
+
 -0.2.2
 Added outfits:
 	Missile Storage
-	
+
 Fixed Reborne intro reqs ;-;
 -0.2.0
 Added outfits:
 	Energy Burst
 	Jericho
 	Shell [With "Burst" and "Mini" submunitions]
-	
+
 Added planets:
 	Bankrupt (Regulus)
-	
+
 Added systems:
 	Reborne
-	
+
 Added ships:
 	Reborne Derelict
 	Reborne Capital
 	Reborne Frigate
-	
+
 Added government:
 	Reborne
-	
+
 Other:
 	Improved system Forn
 	Removed Heavy Carrier skin
 	Dialogue to open up Reborne
-	
+
 -0.1.0
 Added system:
 	Forn
-	
+
 Added planets:
 	Vinchi (Forn)
-	
+
 Removed:
 	Patrolship skin
 
@@ -134,6 +134,6 @@ Added outfits:
 	Zephyr Launcher
 	Cluster Rocket
 	Zephyr Light Missile
-	
+
 Added planets:
 	Officina (Regulus)

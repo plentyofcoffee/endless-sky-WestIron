@@ -17,11 +17,11 @@ system Reborne
 		sprite planet/desert3
 		distance 584
 		period 69.5635
-		
+
 planet Triumph
 	attributes factory urban rich
 	landscape land/city1
-	spaceport `Everyone you see has war paint on, perhaps a tradition among these people. they look at you with disgust, they probably know you aren't a Reborne. You think its pretty nice they haven't killed you yet, but you should probably lay low.`
+	spaceport `Everyone you see has war paint on; it seems to be a tradition among these people. They look at you with disgust, likely recognizing that you aren't a Reborne. You think it's pretty nice they haven't killed you yet, but you should probably lay low.`
 	security 0.5
 	tribute 5780
 		threshhold 3000

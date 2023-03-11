@@ -21,11 +21,11 @@ event "West Nuke"
 		outfitter "West Nuke"
 	planet Radon
 		outfitter "West Nuke"
-	
+
 event "West Iron Officina"
 	planet "Officina"
 		spaceport `The workers here appear to be very efficient, getting your ships set for fueling in a matter of minutes.`
-		spaceport `A very clean space station, as it is the last functional West Iron factory in the galaxy, its expected to be kept as clean as such.`
+		spaceport `A very clean space station. As it the last functional West Iron factory in the galaxy, it's kept spotless as a matter of pride.`
 	planet "Helium"
 		outfitter "West Nuke"
 		government Republic
@@ -49,17 +49,17 @@ event "Fall 1"
 	planet Argon
 		outfitter clear
 		government Republic
-		
+
 event "Fall 2"
 	planet Xenon
 		outfitter clear
 		government "Republic"
-		
+
 event "Fall 3"
 	planet "Helium"
 		outfitter clear
 		government "Republic"
-		
+
 event "Radon dead"
 	planet Radon
 		attributes uninhabited
@@ -83,7 +83,7 @@ mission "West Nuke"
 			`"A reminder to Captains of the stars: Nuclear Weapons are ILLEGAL! you WILL be FINED HEAVILY for having NUCLEAR WEAPONRY on board your vessel!"`
 			`The message repeats.`
 			`"Oh great," You think, "ANOTHER civil war."`
-		
+
 mission "Officina"
 	invisible
 	landing
@@ -96,7 +96,7 @@ mission "Officina"
 			`		"Oh my God, its Jared Mylow!" You hear someone say softly.`
 			`		"Who's Jared Mylow?" You hear another say.`
 			`		"Hes the Vice President of West Iron corporation! You know, public enemy number one, now that the Free Worlds got their way."`
-		
+
 mission "West Iron Fall 1"
 	invisible
 	landing
@@ -105,7 +105,7 @@ mission "West Iron Fall 1"
 		has "event: joined the free worlds"
 	on offer
 		event "Fall 1"
-		
+
 mission "West Iron Fall 2"
 	invisible
 	landing
@@ -114,7 +114,7 @@ mission "West Iron Fall 2"
 		has "event: Tarazed neutrality"
 	on offer
 		event "Fall 2"
-		
+
 mission "West Iron Fall 3"
 	invisible
 	landing
@@ -123,7 +123,7 @@ mission "West Iron Fall 3"
 		has "event: navy occupying the south"
 	on offer
 		event "Fall 3"
-		
+
 mission "West Iron Radon"
 	invisible
 	landing
@@ -140,7 +140,7 @@ event "Reborne unlock"
 	link Reborne Forn
 	shipyard "West Iron Advanced"
 		"Oracle"
-	
+
 event "Reborne meeting time"
 	"reputation: Reborne" = 5
 	government "Reborne"
@@ -161,13 +161,13 @@ event "alphas on earth"
 	planet "Earth"
 		description `The ancestral home world of humanity, Earth has a population ten times that of any other inhabited planet. Sprawling cities cover large portions of its surface, many of them overcrowded and dangerous. `
 		description `	Earth was also the capital of the Republic. That is, until the Reborne and Alphas stormed the capital city, and took the entire planet hostage.`
-		spaceport `Earth's spaceport used to be a bustling place, now half of it is nearly rubble, as it was the staging point for the Alpha's battle for the capital.`
+		spaceport `Earth's spaceport used to be a bustling place. Now half of it is nearly rubble, as it was the staging point for the Alpha's battle for the capital.`
 	outfitter clear
 	"required reputation" 2
 	tribute 1000
 		threshold 20000
 		fleet "Large Reborne" 50
-		
+
 event "alpha takeover"
 	"reputation: Reborne" = -9999
 	system Sol
@@ -201,7 +201,7 @@ mission "Reborne Emerge"
 	on offer
 		event "Reborne unlock"
 		conversation
-			`You see a person in a radiation suit, sitting at a broken bar in the spaceport.`
+			`You see a person in a radiation suit sitting at a broken bar in the spaceport.`
 			choice
 				`(Talk to him)`
 					goto "talk"
@@ -209,17 +209,17 @@ mission "Reborne Emerge"
 					goto "ignore"
 			label talk
 			`You walk over to the strange person.`
-			`		"Hey, what are you doing here?" You say, "This place looks pretty banged up."`
-			`Its a woman.`
+			`		"Hey, what are you doing here?" You say. "This place looks pretty banged up."`
+			`It's a woman.`
 			`		"This was once my home. I'm just here for nostalgia." She replys "Destroyed long ago by the Reborne, a long dead faction of humans."`
-			`		"Git outta here now, and leave me to my sulking." She beckons you to leave. You decide its probably a good idea to comply.`
+			`		"Git outta here now, and leave me to my sulking." She motions you away. You decide it's probably a good idea to comply.`
 				goto "ignore"
-			
+
 			label ignore
 			`You decide to return to your ship.`
 			`As you enter the hangar, a loud noise rocks the planet, like you heard when you reactivated the hyperspace links back in the Pug War.`
 				decline
-		
+
 mission "Reborne Meeting 1"
 	source Triumph
 	destination Vinchi
@@ -227,7 +227,7 @@ mission "Reborne Meeting 1"
 		has "event: Reborne unlock"
 	on offer
 		conversation
-			`A rather Regal looking figure hurries over to you, followed by what look like guard robots, or guards in full body power armor.`
+			`A rather regal looking figure hurries over to you, followed by what look like guard robots, or guards in full body power armor.`
 			`		"You there! You! Outsider!" you hear the regal looking one scream, "How did you land here!? You know what, Zezna, go have a 'talk' with the man at the landing bay."`
 			`		"Woah, woah, woah!" You say,`
 			choice
@@ -236,16 +236,16 @@ mission "Reborne Meeting 1"
 				`"Calm down, I just need to see someone to talk to about this system."
 					goto calm
 			label leader
-			`		"And YOU sir, have no right to be here." One of the guards announces, "I'm putting you under arrest, until we get around to interrogating you."`
+			`		"And YOU sir, have no right to be here." One of the guards announces, "I'm placing you under arrest until we get around to interrogating you."`
 			choice
-				`"Okay, lets both calm down, I just need to see someone to talk to about this system."
+				`"Okay, let's both calm down. I just need to see someone to talk to about this system."
 					goto calm
 				`(Draw weapon)`
 					goto jail
 				`(Put your hands up)`
 					goto arrest
 			label calm
-			`		"Okay" Says the Regal man, "I am I am the President of this planet, I can arrange someone to tell you about us. For now however, we WILL need to put you under arrest."
+			`		"Okay," says the regal man, "As the President of this planet, I can arrange for someone to tell you about us. For now however, we WILL need to put you under arrest."
 			choice
 				`(Draw weapon)`
 					goto jail
@@ -253,11 +253,11 @@ mission "Reborne Meeting 1"
 					goto arrest
 			label arrest
 			`		"Well I don't even know the laws of this planet, so that'd be a great place to start right now." You say.`
-			`		"This isn't school, " The President says bluntly "I am agreeing to tell you so you can be an envoy to the governments outside."
+			`		"This isn't school," the President says bluntly. "I am agreeing to tell you so you can be an envoy to the governments outside."
 				goto jail
 			label jail
 			`		One of the guards shoots you, and everything goes dark.`
-			`		"Wake up outsider, I need to talk to you." You hear an unfamiliar voice say, "I'm the President's appointed teacher." So. They sent someone to talk to me, after SHOOTING ME.`
+			`		"Wake up, outsider. I need to talk to you." You hear an unfamiliar voice say. "I'm the President's appointed teacher." So. They sent someone to talk to me, after SHOOTING ME.`
 			`		The man starts talking, and doesn't stop. Talking to you about how the Reborne originated here, founded an empire. working in secret with the Alphas during the Alpha War. Finally he says "We need you to go to the first government, West Iron, on Vinchi, and talk to them first, about meeting with us in person. That is all. Now begone."`
 			`		The doors to the cell open, and you realize you are in a small chamber in the hangar bay.`
 			choice
@@ -269,14 +269,14 @@ mission "Reborne Meeting 1"
 			`		"Tell them to bring back an ambassador if they accept." The teacher says.
 				accept
 		event "Reborne meeting time"
-				
+
 	on complete
 		set "meetingdone"
 		conversation
 			`		After 4 grueling hours of convincing and waiting, you finally get an audience with the West Iron board.`
 			`		Another 2 hours of convincing later (Thanks Alondo!) and you finally convince the board to send an ambassador to the Reborne.`
 			`		"Meet the ambassador in the spaceport in 2 hours." They tell you.`
-			
+
 mission "Reborne Meeting 2"
 	landing
 	source Vinchi
@@ -295,8 +295,8 @@ mission "Reborne Meeting 2"
 			`		You arrive at the designated building much later than the ambassador, only to learn that the talk is already over. You are to meet both the West Iron and Reborne ambassadors in the spaceport.`
 			`	"That was rather fast, what gives?" You ask.`
 			`	"Well, apparently the Reborne are just as eager to regain their standing with the Republic as West Iron is, I'm sure you understand, Mister Free Worlds councilman." She replies.`
-			
-			
+
+
 mission "Negotiations?"
 	landing
 	source Triumph
@@ -380,7 +380,7 @@ mission "Negotiations?"
 		personality pacifist escort
 		system Reborne
 		ship "Star Queen" "Ambassador"
-	npc accompany 
+	npc accompany
 		government "Reborne"
 		personality timid escort
 		system Reborne
@@ -419,7 +419,7 @@ mission "Save the Ambassador"
 			`		"I think the only thing we can do right now is ask for the Republic and Free Worlds' help. West Iron is in no position to fight the Reborne in this sector alone." says the first board member.`
 			`		"Head to the spaceport Captain, we will send someone to assist you and brief you, should you choose to accept. The man outside will give you your payment for all the trouble the Reborne and us have caused you."`
 			`		You are escorted outside, and just as they said, there is a man there in a suit, who hands you a <payment> credit chip. "The boys and I threw in an extra 2 million for all the trouble at the spaceport, we know you've already been through a war." He says.`
-			
+
 	npc evade
 		government "Reborne"
 		personality waiting staying heroic
@@ -428,8 +428,8 @@ mission "Save the Ambassador"
 			variant
 				"Liberty" 6
 				"Freefire" 6
-				
-	npc 
+
+	npc
 		government "Republic"
 		personality heroic
 		system Sol
@@ -439,29 +439,29 @@ mission "Save the Ambassador"
 				"Combat Drone" 50
 				"Cruiser" 4
 				"Frigate" 6
-				
+
 	npc evade
 		government "Reborne"
 		personality nemesis waiting staying
 		system Sol
 		ship "Liberty" "Freedom for One"
-		
+
 #0.5.0 New mission set
 
 event "bostonNEU"
 	planet "New Boston"
 		government "Neutral"
-		
+
 event "rutilicusFREE"
 	system Rutilicus
 		government Republic
 	planet "New Boston"
 		government "Republic"
-		
+
 event "aliothFREE"
 	system Alioth
 		government "Free Worlds"
-	
+
 event "arcturusFREE"
 	system Arcturus
 		government Republic
@@ -473,7 +473,7 @@ event "DMP"
 		government Reborne
 	system Porrima
 		government Reborne
-		
+
 event "RAA"
 	system Menkent
 		government Reborne
@@ -483,7 +483,7 @@ event "RAA"
 		government Reborne
 	system Alioth
 		government Reborne
-		
+
 event "AVDS"
 	system Altair
 		government Reborne
@@ -512,7 +512,7 @@ mission "chiron alpha"
 		has "Save the Ambassador: done"
 	on offer
 		event "chiron alpha"
-		
+
 mission "Send Help"
 	source Vinchi
 	destination Bourne
@@ -618,7 +618,7 @@ mission "Send Help"
 				"Mass Troop Transport" 3
 				"War Station" 1
 				"Combat Drone" 7
-		
+
 	npc evade
 		government Reborne
 		personality heroic staying
@@ -627,7 +627,7 @@ mission "Send Help"
 			names ""
 			variant 1
 				"Freefire" 8
-				
+
 	npc evade
 		government Reborne
 		personality heroic staying
@@ -637,7 +637,7 @@ mission "Send Help"
 			variant 1
 				"Freefire" 3
 				"Liberty"
-				
+
 mission "Retaking Argon"
 	source Bourne
 	destination Argon
@@ -668,8 +668,8 @@ mission "Retaking Argon"
 			`		"Ah, Its good to have this place back. I'm sure the republic won't mind if we use this place as our base of operations, don't worry, this is a factory, so we should be able to get our weapons and ships pumping out for the war soon enough." says Gregor, as you walk out of the hangar. "I think a payment is in order, for all your help. It probably isn't much compared to what you were earning before all this, but its all I'm authorized to give to hired help."`
 			`		He hands you <payment> credits and heads off for the command center.`
 			`		"Meet me in the Spaceport in a few hours after I get this place ready." He shouts back to you.`
-		
-		
+
+
 	npc kill
 		government "Reborne"
 		personality heroic staying
@@ -680,8 +680,8 @@ mission "Retaking Argon"
 				"Liberty" 6
 				"Freefire" 12
 				"Mass Troop Transport" 8
-				
-	npc 
+
+	npc
 		government "Free Worlds"
 		personality heroic staying
 		system Alphecca
@@ -692,8 +692,8 @@ mission "Retaking Argon"
 				"Fury" 6
 				"Falcon" 2
 				"Sparrow" 6
-				
-	npc 
+
+	npc
 		government "Free Worlds"
 		personality heroic escort
 		system "Gamma Corvi"
@@ -703,7 +703,7 @@ mission "Retaking Argon"
 				"Osprey" 4
 				"Hawk" 4
 				"Dreadnought" 2
-				
+
 mission "Push Them Back"
 	source Argon
 	stopover "New Tibet"
@@ -728,7 +728,7 @@ mission "Push Them Back"
 		dialog `You haven't murdered all the Reborne! Get back out there and scrap some metal!`
 	on complete
 		event "arcturusFREE"
-		
+
 	npc kill
 		government "Reborne"
 		personality heroic staying
@@ -739,7 +739,7 @@ mission "Push Them Back"
 				"Liberty" 1
 				"Freefire" 6
 				"Mass Troop Transport" 1
-				
+
 	npc kill
 		government "Reborne"
 		personality heroic staying
@@ -750,7 +750,7 @@ mission "Push Them Back"
 				"Liberty" 2
 				"Freefire" 2
 				"Mass Troop Transport" 2
-				
+
 	npc
 		government "Free Worlds"
 		personality heroic staying vindictive
@@ -761,7 +761,7 @@ mission "Push Them Back"
 				"Osprey" 1
 				"Fury" 6
 				"Berserker" 6
-				
+
 	npc
 		government "Republic"
 		personality heroic staying vindictive
@@ -772,7 +772,7 @@ mission "Push Them Back"
 				"Cruiser" 1
 				"Combat Drone" 2
 				"Frigate" 1m
-				
+
 mission "Plug the Hole"
 	landing
 	source "New Greenland"
@@ -799,7 +799,7 @@ mission "Plug the Hole"
 		dialog `You haven't murdered all the Reborne! Get back out there and scrap some metal!`
 	on complete
 		event "rutilicusFREE"
-	
+
 	npc kill
 		government "Reborne"
 		personality heroic staying
@@ -811,8 +811,8 @@ mission "Plug the Hole"
 				"Mass Troop Transport" 3
 				"War Station" 2
 				"Combat Drone" 14
-	
-	npc 
+
+	npc
 		government "West Iron"
 		personality heroic staying
 		system Rutilicus
@@ -829,7 +829,7 @@ event MeVaNEU
 		government Republic
 	system Vega
 		government Republic
-		
+
 mission "The Dive"
 	landing
 	source "New Boston"
@@ -848,7 +848,7 @@ mission "The Dive"
 					goto "do it"
 				`"What about any Alphas and Reborne on New Austria?"`
 					goto "NewA"
-			
-			
+
+
 	on enter "Menkent"
 		event "MeVaNEU"

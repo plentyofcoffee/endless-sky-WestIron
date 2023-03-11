@@ -14,8 +14,8 @@ system Merak
 planet Officina
 	attributes factory urban station
 	landscape land/Officina
-	spaceport `The workers here appear to be very efficient, getting your ships set for fueling in a matter of minutes.`
-	description `There are merchants bargaining with Officials, crews letting off steam in the surprisingly nice bar, and workers bustling in and out of docking bays.`
+	spaceport `The workers here appear to be very efficient, getting each ship fueled in a matter of minutes.`
+	description `There are merchants bargaining with officials, crews letting off steam in the surprisingly nice bar, and workers bustling in and out of docking bays.`
 	shipyard "Basic Ships"
 	shipyard "West Iron Advanced"
 	outfitter "West Iron Outfits"
@@ -26,25 +26,25 @@ planet Officina
 	tribute 1200
 		threshold 3000
 		fleet "Large West Iron" 10
-		
+
 planet Vinchi
 	attributes factory urban rich
 	landscape land/city2
-	description `The planet is large, balanced out in both factories, cities and suburbs, something Earth wasn't able to do.`
-	spaceport `A few commonfolk here and there, mostly officers and engineers of West Iron corporation.`
+	description `The planet is large and strikes a good balance between factories, cities, and suburbs - something Earth wasn't able to do.`
+	spaceport `You see a few blue-collar workers here and there, but mostly officers and engineers of the West Iron corporation.`
 	shipyard "West Iron Advanced"
 	outfitter "West Iron Outfits"
 	security 0.5
 	tribute 4000
 		threshhold 3000
 		fleet "Large West Iron" 15
-		
+
 planet Bankrupt
 	attributes uninhabited
 	landscape land/desert3
-	description `There is only ruins here, nuclear ruins.`
-	spaceport `The spaceport is dead, shattered. only a few landing pads remain.`
-	
+	description `There are only ruins here. Nuclear ruins.`
+	spaceport `The spaceport is dead, shattered. Only a few landing pads remain.`
+
 system Regulus
 	pos -544 25
 	government "West Iron"
@@ -81,11 +81,11 @@ system Regulus
 		sprite planet/gas15
 		distance 774.96
 		period 92.8372
-		object 
+		object
 			sprite planet/rock3
 			distance 186
 			period 12.5035
-		object 
+		object
 			sprite planet/dust1
 			distance 317
 			period 27.8196
@@ -113,7 +113,7 @@ system Regulus
 			sprite planet/lava2
 			distance 346
 			period 20.065
-			
+
 system Forn
 	pos -596.128 52.0123
 	government "West Iron"
@@ -141,7 +141,7 @@ system Forn
 		sprite planet/desert6
 		distance 584
 		period 69.5635
-		
+
 system Zosma
 	object Helium
 		sprite planet/station3
@@ -174,13 +174,13 @@ system Zosma
 			sprite planet/station3
 			distance 272
 			period 12.9498
-	
+
 planet Helium
 	government "West Iron"
 	attributes factory urban station
 	landscape land/Officina
-	spaceport `The workers here appear to be very efficient, getting your ships set for fueling in a matter of minutes.`
-	description `There are merchants bargaining with Officials, crews letting off steam in the surprisingly nice bar, and workers bustling in and out of docking bays.`
+	spaceport `The workers here appear to be very efficient, getting each ship fueled in a matter of minutes.`
+	description `There are merchants bargaining with officials, crews letting off steam in the surprisingly nice bar, and workers bustling in and out of docking bays.`
 	shipyard "West Iron Basics"
 	outfitter "West Iron Launchers"
 	bribe 0.03
@@ -188,7 +188,7 @@ planet Helium
 	tribute 1200
 		threshold 3000
 		fleet "Large West Iron" 5
-		
+
 system Alhena
 	object "Neon"
 		sprite planet/station3
@@ -231,13 +231,13 @@ system Alhena
 			sprite planet/io
 			distance 275
 			period 12.2356
-		
+
 planet Neon
 	government "West Iron"
 	attributes factory urban station
 	landscape land/Officina
-	spaceport `The workers here appear to be very efficient, getting your ships set for fueling in a matter of minutes.`
-	description `There are merchants bargaining with Officials, crews letting off steam in the surprisingly nice bar, and workers bustling in and out of docking bays.`
+	spaceport `The workers here appear to be very efficient, getting each ship fueled in a matter of minutes.`
+	description `There are merchants bargaining with officials, crews letting off steam in the surprisingly nice bar, and workers bustling in and out of docking bays.`
 	shipyard "West Iron Basics"
 	outfitter "West Iron Launchers"
 	bribe 0.03
@@ -245,7 +245,7 @@ planet Neon
 	tribute 1200
 		threshold 3000
 		fleet "Large West Iron" 5
-		
+
 system Alphecca
 	object "Argon"
 		sprite planet/station3
@@ -276,13 +276,13 @@ system Alphecca
 		sprite planet/rock17
 		distance 2097.32
 		period 1026.82
-		
+
 planet Argon
 	government "West Iron"
 	attributes factory urban station
 	landscape land/Officina
-	spaceport `The workers here appear to be very efficient, getting your ships set for fueling in a matter of minutes.`
-	description `There are merchants bargaining with Officials, crews letting off steam in the surprisingly nice bar, and workers bustling in and out of docking bays.`
+	spaceport `The workers here appear to be very efficient, getting each ship fueled in a matter of minutes.`
+	description `There are merchants bargaining with officials, crews letting off steam in the surprisingly nice bar, and workers bustling in and out of docking bays.`
 	shipyard "West Iron Basics"
 	outfitter "West Iron Launchers"
 	bribe 0.03
@@ -290,7 +290,7 @@ planet Argon
 	tribute 1200
 		threshold 3000
 		fleet "Large West Iron" 5
-		
+
 system Turais
 	object "Xenon"
 		sprite planet/station3
@@ -324,8 +324,8 @@ planet Xenon
 	government "West Iron"
 	attributes factory urban station
 	landscape land/Officina
-	spaceport `The workers here appear to be very efficient, getting your ships set for fueling in a matter of minutes.`
-	description `There are merchants bargaining with Officials, crews letting off steam in the surprisingly nice bar, and workers bustling in and out of docking bays.`
+	spaceport `The workers here appear to be very efficient, getting each ship fueled in a matter of minutes.`
+	description `There are merchants bargaining with officials, crews letting off steam in the surprisingly nice bar, and workers bustling in and out of docking bays.`
 	shipyard "West Iron Basics"
 	outfitter "West Iron Launchers"
 	bribe 0.03
@@ -333,7 +333,7 @@ planet Xenon
 	tribute 1200
 		threshold 3000
 		fleet "Large West Iron" 5
-		
+
 system Mirach
 	object "Radon"
 		sprite planet/station3
@@ -372,13 +372,13 @@ system Mirach
 			sprite planet/rock14
 			distance 422
 			period 25.0252
-		
+
 planet Radon
 	government "West Iron"
 	attributes factory urban station
 	landscape land/Officina
-	spaceport `The workers here appear to be very efficient, getting your ships set for fueling in a matter of minutes.`
-	description `There are merchants bargaining with Officials, crews letting off steam in the surprisingly nice bar, and workers bustling in and out of docking bays.`
+	spaceport `The workers here appear to be very efficient, getting each ship fueled in a matter of minutes.`
+	description `There are merchants bargaining with officials, crews letting off steam in the surprisingly nice bar, and workers bustling in and out of docking bays.`
 	shipyard "West Iron Basics"
 	outfitter "West Iron Launchers"
 	bribe 0.03
@@ -386,12 +386,12 @@ planet Radon
 	tribute 1200
 		threshold 3000
 		fleet "Large West Iron" 5
-	
+
 planet "New Argentina"
 	outfitter "HullShock Advanced"
-	
+
 planet "New Greenland"
 	outfitter "HullShock Basics"
-	
+
 planet "New Wales"
 	outfitter "HullShock Advanced"

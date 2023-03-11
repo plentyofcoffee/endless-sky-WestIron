@@ -39,16 +39,16 @@ outfit "Cluster Rocket Launcher"
 		"hit force" 80
 		"homing" 1
 		"missile strength" 18
-	description "West Iron took the Heavy Rocket, and put more boom in it. More boom = More good."
-	
+	description "West Iron took the Heavy Rocket and put more Boom in it. More Boom = More Good."
+
 outfit "Cluster Rocket"
 	category "Ammunition"
 	cost 2750
 	thumbnail "outfit/rocket"
 	"Cluster capacity" -1
 	"mass" .3
-	description "More boom."
-	
+	description "More Boom."
+
 outfit "Shieldbuster Turret"
 	category "Turrets"
 	cost 700000
@@ -72,8 +72,8 @@ outfit "Shieldbuster Turret"
 		"shield damage" 9
 		"hull damage" .25
 		"ion damage" .0025
-	description "The Shieldbuster is designed for use against capital vessels, to tear down the shields in order to let the other weapons get a clean shot off on the ship itself."
-	
+	description "The Shieldbuster is designed for use against capital vessels. It tears down its target's shields as quickly as possible so that other weapons can attack the hull directly."
+
 outfit "Zephyr Launcher"
 	category "Secondary Weapons"
 	cost 17500
@@ -107,16 +107,16 @@ outfit "Zephyr Launcher"
 		"hull damage" 10
 		"hit force" 10
 		"missile strength" 3
-	description "A very weak missile itself, but hordes can overpower any human anti-missile system fast."
-	
+	description "By itself, a very weak missile. Launched in a swarm, however, they can quickly overpower any human anti-missile system."
+
 outfit "Zephyr Light Missile"
 	category "Ammunition"
 	cost 20
 	thumbnail "outfit/rocket"
 	"Zephyr capacity" -1
 	"mass" .2
-	description "Less boom."
-	
+	description "Less Boom."
+
 outfit "Energy Burst"
 	category "Guns"
 	cost 16000
@@ -138,8 +138,8 @@ outfit "Energy Burst"
 		"shield damage" 70
 		"hull damage" 30
 		"anti-missile" .5
-	description "Are you looking to go into large space battles like a boss?! Then this is what you need! Otherwise, throw this bulls*** out because it is ****ing useless. West Iron really f***ed this one up. -Lunar Technologies"
-	
+	description "'Are you looking to go into large space battles like a boss?! Then this is what you need! Otherwise, throw this bulls*** out because it is ****ing useless. West Iron really f***ed this one up; the projectiles go EVERYWHERE.' -Lunar Technologies"
+
 outfit "Jericho"
 	category "Secondary Weapons"
 	cost 600000
@@ -160,7 +160,7 @@ outfit "Jericho"
 		"shield damage" 3
 		"hull damage" 3
 		"reload" 30
-	description "A Multi-Missile system that requires no energy to fire, as it uses compressed air to launch, resulting in a low velocity. Its a great weapon to use in tandem with a Static Pulse or Radiation Flare BECAUSE it requires no heat or energy. Although it is devastating to smaller ships like fighters and drones, it has little effect on Capital ships, and is best placed on a support ship."
+	description "A multi-missile system that fires projectiles using compressed air. The lower velocity is offset by the lack of energy use or heat generation - which, as a bonus, synergizes rather well with Static Pulse or Radiation Flare weapons. Although it is devastating to smaller ships like fighters and drones, it has little effect on capital ships and is best placed on a support ship."
 
 outfit "Shell"
 	category "Ammunition"
@@ -168,8 +168,8 @@ outfit "Shell"
 	thumbnail "outfit/rocket"
 	"Shell capacity" -1
 	"mass" .4
-	description "Multi boom."
-		
+	description "Multi Boom."
+
 outfit "Burst"
 	weapon
 		sprite "projectile/thunderhead fragment"
@@ -213,9 +213,9 @@ outfit "Mini"
 		"hit force" 10
 		"blast radius" 30
 		"missile strength" 3
-		
+
 outfit "West|Fe Missile Storage"
-	thumbnail "outfits/rocket"
+	thumbnail "outfit/rocket"
 	category "Systems"
 	cost 90000
 	"cargo space" -20
@@ -223,12 +223,12 @@ outfit "West|Fe Missile Storage"
 	"Cluster capacity" 40
 	"Zephyr capacity" 80
 	"Shell capacity" 12
-	description "A storage silo that takes up cargo area, meant to hold West Iron's special missiles
-	
+	description "A storage silo that takes up cargo area, meant to hold West Iron's special missiles.
+
 outfit "Electric Anti-Missile"
 	category "Turrets"
 	cost 200000
-	thumbnail "outfits/e-antimissile"
+	thumbnail "outfit/e-antimissile"
 	"mass" 30
 	"outfit space" -30
 	"weapon capacity" -30
@@ -242,15 +242,15 @@ outfit "Electric Anti-Missile"
 		"reload" 3
 		"firing energy" 30
 		"firing heat" .5
-	description "This Anti-Missile system designed by West Iron uses charged electric blasts to destroy missiles mid-flight, while creating little heat."
+	description "This West Iron anti-missile system uses charged electric blasts to destroy missiles mid-flight and thus generates very little heat."
 
 outfit "Nuclear Missile"
 	illegal 20000000
-	
+
 outfit "Proton Turret"
 	category "Turrets"
 	cost 560000
-	thumbnail "outfits/proton turret"
+	thumbnail "outfit/proton turret"
 	"mass" 56
 	"outfit space" -56
 	"weapon capacity" -56
@@ -268,8 +268,8 @@ outfit "Proton Turret"
 		"firing energy" 20
 		"firing heat" 70
 		"firing force" 4
-	description "The Reborne were so fond of the Proton Cannon, their engineers slapped em' on a turret mount and said have fun."
-	
+	description "The Reborne were so fond of the Proton Cannon that their engineers slapped 'em on a turret mount and said, 'have fun'."
+
 outfit "Static Pulse"
 	category "Guns"
 	cost 2000000
@@ -294,8 +294,8 @@ outfit "Static Pulse"
 		"hull damage" 0
 		"blast radius" 100000
 		"ion damage" 10000
-	description "The Static Pulse causes no hull damage, but packs a huge Ion punch, and is able to disable an entire system with one shot, so it is generally used with a fleet to back you up.
-	
+	description "While the Static Pulse causes no hull damage, it packs a huge Ion punch and is able to disable an entire system with one shot. Generally used with a fleet to back you up.
+
 outfit "Radiation Flare"
 	category "Guns"
 	cost 2200000
@@ -320,8 +320,8 @@ outfit "Radiation Flare"
 		"hull damage" 50
 		"blast radius" 100000
 		"heat damage" 300000
-	description "Devastating to small ships, and capital ships alike, It works much the same as the Static Burst but it takes radiation from the power core and shoots it out, causing a massive radioactive burst to spread through space, not very harmful to humans, but severely throws off cooling systems and overheats reactors. For ships with little cooling capabilities, it is devastating, and can mean certain death, but capital ships are still at risk of ambush while shut down."
-	
+	description "Devastating to small ships and capital ships alike, the Radiation Flare redirects bursts of radiation from the power core into space. While the radiation is not very harmful to humans, it can severely overload cooling systems and overheat reactors. This can temporarily disable capital ships or spell certain death for ships with little cooling capabilities."
+
 outfit "Heat Sink Cannon"
 	category "Secondary Weapons"
 	thumbnail "outfit/supercapacitor"
@@ -341,12 +341,12 @@ outfit "Heat Sink Cannon"
 		"blast radius" 30
 		"lifetime" 1000000000
 		"velocity" 2
-	description "Building up heat too fast? Don't give a crap about non-turrets? Me too! Thats why I bought the West Iron certified Heat Sink Cannon! -Totally a real customer"
-	
+	description "'Building up heat too fast? Don't give a crap about non-turrets? Me too! That's why I bought the West Iron certified Heat Sink Cannon!' -Totally a real customer"
+
 outfit "Hull Buster"
 	category "Guns"
 	cost 200000
-	thumbnail "outfits/gatling"
+	thumbnail "outfit/gatling"
 	"mass" 5
 	"outfit space" -20
 	"weapon capacity" -20
@@ -367,16 +367,16 @@ outfit "Hull Buster"
 		"hull damage" 40
 		"firing force" 10
 		"missile strength" 30
-	description "With new technology available to make ship's hulls stronger than ever, HullShock decided to take a trip to the olden days of projectile weapons, capable of popping holes in exposed hull no problem, but will have no effect on shields."
-	description "As far as projectile weapons go, this one is very inaccurate. Although it was a hit with Bounty Hunters looking to kill pirates, Nobody else really had a need for it, or a ship that could handle CQC with any ship that requires being hit with this weapon." 
-		
+	description "With new technology available to make ship's hulls stronger than ever, HullShock decided to take a trip to the olden days of projectile weapons, creating a monster of a gun that is capable of effortlessly punching holes through exposed hulls, though it has no effect on shields."
+	description "This gun is very inaccurate, even for a projectile weapon. Although it was a hit with Bounty Hunters looking to kill pirates, few others found a use for it. Realistically speaking, a target requiring a shot from this weapon would probably kill you long before you got within firing range."
+
 outfit "Molten Pellet"
 	category "Ammunition"
 	cost 10
 	"Pellet capacity" -1
-	thumbnail "outfits/pellet"
+	thumbnail "outfit/pellet"
 	mass .05
-	
+
 outfit "Jackal Ion Launcher"
 	category "Secondary Weapons"
 	cost 300000
@@ -408,20 +408,20 @@ outfit "Jackal Ion Launcher"
 		"pierce" .8
 		"ion damage" 5
 		"missile strength" 8
-	description "This work masterpiece is a modified Javelin launcher that supercharges it's ammunition before launch. The charges missile can disrupt enemy shields long enough to hit the hull, putting fear into anyone on board."
-	
+	description "This masterpiece is a modified Javelin launcher that supercharges its ammunition before launch. The charge disrupts enemy shields long enough for the missile to hit the hull directly, putting fear into anyone on board."
+
 outfit "Jackal Rocket"
 	category "Ammunition"
 	cost 750
 	thumbnail "outfit/javelin"
 	"Jackal capacity" -1
 	"mass" .2
-	description "Scary boom."
-	
+	description "Scary Boom."
+
 outfit "Mass Driver Cannon"
 	cost 600000
 	category "Guns"
-	thumbnail "outfits/mac"
+	thumbnail "outfit/mac"
 	"mass" 45
 	"outfit space" -45
 	"weapon capacity" -45
@@ -442,19 +442,19 @@ outfit "Mass Driver Cannon"
 		"lifetime" 1000000000
 		"velocity" 200
 		"missile strength" 50
-	description "HullShock Industries' second big hitter, a throwback to the old days, this lovely M.A.C. or 'Railgun' as it was dubbed, accelerates it's projectile with a series of magnets. The firing mechanism creates no heat and no knockback, and quite a bit of force. The residual magnetic field around the projectile allows it to puncture any shield, but not before the projectile slows down quite a bit."
-		
+	description "HullShock Industries' second big hitter; a throwback to the old days. This lovely M.A.C. (or 'Railgun', as it was dubbed) accelerates its projectile with a series of magnets. The firing mechanism creates no heat and no knockback, but quite a bit of force. The residual magnetic field around the slug allows it to puncture the target's shields, though it does slow the projectile down quite a bit."
+
 outfit "Driver Round"
 	category "Ammunition"
 	cost 1200
 	thumbnail "outfit/thunderhead"
 	"DR capacity" -1
 	"mass" .5
-	
+
 outfit "Tractor Beam"
 	category "Turrets"
 	cost 2000000
-	thumbnail "outfits/tbeam"
+	thumbnail "outfit/tbeam"
 	"mass" 55
 	"outfit space" -55
 	"weapon capacity" -55
@@ -468,7 +468,7 @@ outfit "Tractor Beam"
 		"firing energy" 10
 		"slowing damage" .05
 		"hit force" -3
-	description "A high powered beam variation based off of stolen Korath technology, able to keep capital ships within reach and drag small fighters along for the ride, but it is unable to do any damage itself."
+	description "A high powered beam variation based on stolen Korath technology. Though it does not do any damage, it s able to keep capital ships within reach and drag small fighters along for the ride."
 
 outfit "Dual Heavy Laser"
 	category "Guns"
@@ -487,12 +487,12 @@ outfit "Dual Heavy Laser"
 		"velocity" 400
 		"lifetime" 1
 		"reload" 1
-		"firing energy" 2
-		"firing heat" 5
-		"shield damage" 3.6
+		"firing energy" 2.66
+		"firing heat" 5.8
+		"shield damage" 3.4
 		"hull damage" 4.8
-	description "The Heavy Laser was a real hit with pilots everywhere. It was cheap, powerful, and long-range. The Dual Heavy Laser is a direct upgrade, its literally just two Heavy Lasers fused together. The problem is that because of the cramped gun port, it generates more than just double the heat."
-	
+	description "The Heavy Laser was a hit with pilots everywhere due to its strength, range, and low cost. The Dual Heavy Laser is a direct upgrade - literally just two Heavy Lasers fused together. Unfortunately, due to the cramped gun port it generates more than just double the heat."
+
 outfit "Dual Electron Beam"
 	category "Guns"
 	cost 340000
@@ -510,12 +510,12 @@ outfit "Dual Electron Beam"
 		"velocity" 450
 		"lifetime" 1
 		"reload" 1
-		"firing energy" 3
-		"firing heat" 6
-		"shield damage" 5.8
-		"hull damage" 7.8
-	description "Until the Freeworlds civil war, the heavy laser was the best weapon for any job. Unfortunately, when the Republic Navy started to crumble under the force of the Freeworlds, Deep Sky labs unleashed their ultimate creation, the ELectron Beam. Since then, Things have calmed down more, but Deep Sky saw no reason they couldn't rease a dual version of their best weapon."
-	
+		"firing energy" 4
+		"firing heat" 7.2
+		"shield damage" 4.8
+		"hull damage" 6.6
+	description "Until the Free Worlds' civil war, the Heavy Laser was the best weapon for any job. Unfortunately, when the Republic Navy started to crumble under the force of the Free Worlds, Deep Sky labs unleashed their ultimate creation, the Electron Beam. Although tensions have abated somewhat, Deep Sky saw no reason they couldn't rease a dual version of their best weapon."
+
 outfit "Dual Beam Laser"
 	category "Guns"
 	cost 29000
@@ -533,8 +533,8 @@ outfit "Dual Beam Laser"
 		"velocity" 300
 		"lifetime" 1
 		"reload" 1
-		"firing energy" 1
-		"firing heat" 3
+		"firing energy" 1.34
+		"firing heat" 3.2
 		"shield damage" 2
 		"hull damage" 2.6
-	description "The Beam Laser is an incredible weapon for starter pilots, extremely cheap, and gets the job of defense done okay for anyone with a small ship. Most pilots still took on the Heavy laser over two beam lasers, simply because of the range increase, despite the fact that the damage was not quite doubled. To remedy that, The galaxy was presented with the Dual Beam lasers, a stepping stone between Heavy Lasers and Beam Lasers."
+	description "The Beam Laser provides adequate defense for anyone with a small ship, not just rookie pilots drawn in by its affordable pricing. However, more seasoned pilots typically prefer a single Heavy Laser over two Beam Lasers, trading a slight hit in damage for a significant increase in range. The Dual Beam Laser is made for those pilots who don't agree; the natural stepping stone between Beam Lasers and Heavy Lasers."
